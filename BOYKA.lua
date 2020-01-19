@@ -130,7 +130,7 @@ token = sudos.token
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,554921096}
+sudo_users = {SUDO,689087834}
 function SudoBot(msg)  
 local BOYKA = false  
 for k,v in pairs(sudo_users) do  
@@ -189,7 +189,7 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(554921096) then  
+if tonumber(user_id) == tonumber(689087834) then  
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -212,7 +212,7 @@ return var
 end 
 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(554921096) then  
+if tonumber(user_id) == tonumber(689087834) then  
 var = 'مطور السورس👨‍🔧'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي👨‍💻'  
@@ -8743,7 +8743,7 @@ Text_Games = [[
 ء┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 الميزيد م̷ـــِْن المعلومات √
 راسل المطور البوت °
-📌| Ch @BOBBW
+📌| Ch @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
@@ -8918,7 +8918,7 @@ Text = [[
 🔖| م5 » اوامر المطورين 
 🔖| م6 » اوامر التحشيش
  ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH » @BOBBW
+🔖| CH » @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -8975,7 +8975,7 @@ Text = [[
 🔘| قفل ← فتح الفارسيه
 🔘| قفل ← فتح الفشار
  ء┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉┉
-🔖| CH » @BOBBW
+🔖| CH » @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -9031,7 +9031,7 @@ Text = [[
 🔺| رابط ، ترحيب ، قوانين
 🔺|صوره ، وصف
 ء ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH » @BOBBW
+🔖| CH » @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -9094,7 +9094,7 @@ Text = [[
 🔘| تعطيل/تفعيل صيح
 🔘| تعطيل/تفعيل ضافني
 ء ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉┉ ┉ ┉
-🔖| CH » @BOBBW
+🔖| CH » @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -9137,7 +9137,7 @@ Text = [[
 🔅| تفعيل/تعطيل الحظر
 🔅| تفعيل/تعطيل الرفع 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ء
-🔖| CH » @BOBBW
+🔖| CH » @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -9208,7 +9208,7 @@ Text = [[
 🔆| تنظيف المشتركين
 🔆| تنظيف الكروبات
 ء ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-🔖| CH » @BOBBW
+🔖| CH » @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -9271,7 +9271,7 @@ Text = [[
 🎖️| تاك لجريذيه
 ⚡| تنزيل جريذيه
 ء┉  ┉  ┉  ┉  ┉  ┉ ┉  ┉  ┉  ┉  ┉  ┉
-🔖| CH » @BOBBW
+🔖| CH » @THE_M3RK
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
